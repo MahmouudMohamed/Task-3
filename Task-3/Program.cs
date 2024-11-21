@@ -12,6 +12,18 @@
             this.auther = auther;
             ISBN = iSBN;
         }
+
+        #region Set&Get
+        public string GetTitle() { return title; }
+        public void SetTitle(string title) { this.title = title; }
+        public bool GetAvailability() { return availability; }
+        public void SetAvailability(bool availability) { this.availability = availability; }
+        public string GetAuther() { return auther; }
+        public void SetAuther(string auther) { this.auther = auther; }
+        public string GetISBN() { return ISBN; }
+        public void SetISBN(string iSBN) { this.ISBN = iSBN; } 
+        #endregion
+
     }
     class Library
     {
